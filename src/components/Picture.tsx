@@ -15,6 +15,7 @@ const PictureBlock = styled.div`
     background-color: white;
     padding-top: 10px;
     font-size: 1rem;
+    text-align: center;
   }
 `
 
