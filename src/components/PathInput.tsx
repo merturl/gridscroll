@@ -6,7 +6,6 @@ interface PathInputProps {
   startNumber: string;
   onURLChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onStartNumberChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
   onURLSave: (e: React.MouseEvent<HTMLButtonElement>) => void;
   onStartNumberSave: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
@@ -14,6 +13,7 @@ interface PathInputProps {
 const PathInputBlock = styled.div`
   display: flex;
   flex-direction: column;
+  padding: 10px;
   button {
 
   }
