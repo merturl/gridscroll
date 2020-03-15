@@ -11,6 +11,11 @@ const PictureBlock = styled.div`
     height: 100%;
     object-fit: cover;
   }
+  div {
+    background-color: white;
+    padding-top: 10px;
+    font-size: 1rem;
+  }
 `
 
 interface PictureProps {
@@ -23,6 +28,7 @@ const Picture = ({ URL, id }: PictureProps) => {
   return (
     <PictureBlock>
       <img src={imageURL} />
+      <div>{id}</div>
     </PictureBlock>
   )
 }
